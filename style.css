@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?_gl=1*10hj9x9*_ga*MTAxMTAzNDkyNy4xNzUzNzQyODI2*_ga_8JE65Q40S6*czE3NTg4ODMwNDUkbzEwJGcxJHQxNzU4ODg0NDEzJGoxMCRsMCRoMA') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Delivery Section */
+.delivery img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Counter Section */
+.counter img {
+  width: 200px;
+  margin-top: 20px;
+  display: block;
+}
+
+/* FAQ Section */
+.faq-question {
+  cursor: pointer;
+  padding: 10px;
+  background: #f4f4f4;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.faq-answer {
+  display: none;
+  margin: 10px 0;
+}
+
+/* Order Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px;
+  background: tomato;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: darkred;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #222;
+  color: #f4f4f4;
+}
+
+/* Side-by-side menu images */
+.menu-images {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.menu-images img {
+  width: 200px;
+  border-radius: 8px;
+}
+
